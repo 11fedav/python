@@ -8,4 +8,4 @@ minute1 = hour1 % 60
 
 second = minute1 % 60
 
-print(hour, ':', minute, ':', second)
+print(f'{hour:02} : {minute:02} : {second:02}')
